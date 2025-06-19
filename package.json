@@ -1,0 +1,25 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+     "build": "heft build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "^4.3.0",
+    "@rushstack/heft": "^0.73.6",
+    "@rushstack/heft-lint-plugin": "^0.6.0",
+    "@rushstack/heft-typescript-plugin": "^0.9.7",
+    "@types/node": "^24.0.3",
+    "eslint": "^8.57.0",
+    "typescript": "^5.8.3"
+  }
+}
