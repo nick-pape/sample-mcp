@@ -4,7 +4,8 @@
   "main": "lib/index.js",
   "scripts": {
      "build": "heft build --clean",
-     "serve": "node lib/index.js"
+     "serve": "node lib/index.js",
+     "serve:mcpo": "mcpo --port 8000 -- npm run serve"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@rushstack/heft": "^0.73.6",
     "@rushstack/heft-lint-plugin": "^0.6.0",
     "@rushstack/heft-typescript-plugin": "^0.9.7",
+    "@rushstack/node-core-library": "^2.7.0",
     "@types/node": "^24.0.3",
     "eslint": "^8.57.0",
     "typescript": "^5.8.3"
